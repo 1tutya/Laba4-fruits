@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+
+header {
+    margin: 50px 10%;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    justify-items: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.cart {
+    display: flex;
+    gap: 5px;
+    color: #6b6b6b;
+    font-size: 15px;
+    border: 1px solid #6b6b6b;
+    border-radius: 40px;
+    padding: 7px;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-content: center;
+    justify-items: center;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+
+.item {
+    position: relative;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+button {
+    background: none;       
+    border: none;           
+    padding: 0;             
+    margin: 0;              
+    font: inherit;          
+    color: inherit;        
+    cursor: pointer;        
+    outline: none;         
+}
+
+.add-to-cart {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #6b6b6b;
+    font-size: 15px;
+    border: 1px solid #6b6b6b;
+    border-radius: 40px;
+    padding: 5px 10px;
+}
+
+.description {
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.price {
+    color: #6b6b6b;
+    font-size: 21px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background: #ededed;
+    width: 100%;
+    height: 75px;
+    font-size: 20px;
+    color: #6b6b6b;
+}
